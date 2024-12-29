@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+.pumpkinSvg {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.face {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin-top: 100px;
+}
+.controls {
+  position: absolute;
+  left: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  padding: 10px;
+  background-color: #444;
+  border-radius: 5px;
+}
+input {
+  border-radius: 5px;
+}
+span {
+  margin-bottom: 15px;
+}
+.title {
+  position: absolute;
+  font-size: 24px;
+  color: #fff;
+  top: 25px;
+}
